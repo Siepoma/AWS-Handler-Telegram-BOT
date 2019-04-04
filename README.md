@@ -6,7 +6,7 @@ A telegram bot to perform simple task on your amazon ec2
 1. Go to [Telegram Web](https://web.telegram.org/).
 2. Start a chat with [@BotFather](https://telegram.me/BotFather).
 3. Type "/start".
-4. Type "/newbot" to create a new bot. I named my bot "lesterchan_bot".
+4. Type "/newbot" to create a new bot.
 5. Note the HTTP API access token that @BotFather will reply you after you created the bot.
 
 ### AWS Lambda

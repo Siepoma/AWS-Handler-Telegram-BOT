@@ -39,7 +39,7 @@ A telegram bot to perform simple task on your amazon ec2
 ### Set Telegram Webhook
 1. Replace &lt;BOT-TOKEN&gt; with your Telegram HTTP API access token obtained in the first step. 
 2. Replace &lt;API-URL&gt; with your Invoke URL obtained in the previous step.
-3. From any browser go to: https://api.telegram.org/bot<BOT-TOKEN>/setWebHook?url=<API-URL>:
+3. From any browser go to: https://api.telegram.org/bot{BOT-TOKEN}/setWebHook?url={API-URL}
 
 You should obtain something like this:
 ```

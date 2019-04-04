@@ -17,6 +17,7 @@ A telegram bot to perform simple task on your amazon ec2
 5. Under "Role",  choose "Create a new role from templates".
 6. Under "Policy templates", choose "Basic Lambda @ Edge permissions"
 7. Click "Create function".
+8. Replace the code in your Lambda function with bot.py remember to substitute the bot token, save.
 
 ### AWS API Gateway
 1. Go to [AWS API Gateway]

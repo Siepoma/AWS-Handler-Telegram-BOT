@@ -159,8 +159,17 @@ def lambda_handler(event, context):
                 senderUsr = message['message']['from']['first_name']
             except:
                 senderUsr = 'NoOne'
-        
-        reply = message['message']['text']
+        try:
+            reply = message['message']['text']
+        except Exception as e:
+            try:
+                reply = message['message']['new_chat_member']
+                send_message('Hi '+ senderUsr +'!\nWelcome to this magic group!\nTry the command help to find out all my capabilities',chat_id)
+                return {
+                    'statusCode': 200
+                }
+            except:
+                raise e        
         
         usrsResp = '-'.join(auth_usrs)
         
